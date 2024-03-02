@@ -1,8 +1,16 @@
 package com.example.coolweather.db;
 
-import org.litepal.crud.DataSupport;
+import org.litepal.crud.LitePalSupport;
 
-public class Province extends DataSupport {
+/**
+ * @version: V1.0
+ * @author: WenyiYin
+ * @className: Province
+ * @packageName: com.example.coolweather.db
+ * @description: 省级数据库
+ * @date: 2024/3/1 15:45
+ **/
+public class Province extends LitePalSupport {
 
     private int id;
 
